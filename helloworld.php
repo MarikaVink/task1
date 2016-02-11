@@ -19,7 +19,7 @@
 	// == equal
 	// != not equal
 
-	$age = 5;
+	$age = 4;
 	//if age is smaller than or equal to 6, then you can't sleep at lunchtime
 	if ($age <=6){
 		//it is true
@@ -29,3 +29,48 @@
 		echo "no, you are at school";
 	}
 ?>
+
+<br>
+
+<?php
+
+	// loop
+	//the tas was to write as many numbers as the age is (but starting from 1, not 0 and ending with the number of age (here 4)
+	
+	for ($i=1; $i <= $age; $i=$i+1){
+		
+		//if condition is true
+		echo $i;
+	}
+
+?>
+
+<br>
+
+<?php
+
+	echo "Today is ".date ("d.m.Y H:i");
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
